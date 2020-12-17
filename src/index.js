@@ -8,7 +8,7 @@ import Amplify from 'aws-amplify'
 import config from './aws-exports'
 Amplify.configure(config)
 
-ReactDOM.render(<Canvas />, document.getElementById('root'));
+ReactDOM.render(<Canvas /><b>asd</b>, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
